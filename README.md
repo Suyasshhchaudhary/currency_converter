@@ -1,26 +1,50 @@
-# README
+# Currency Converter Application
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Technologies Used
 
-Things you may want to cover:
+- **Backend:** Rails 7.1.3.4, ruby 3.1.1p18
+- **Frontend:** React
+- **Database:** Sqlite3
+- **Version Control:** Git
+- **Package Management:** Yarn for JavaScript dependencies
 
-* Ruby version
 
-* System dependencies
 
-* Configuration
+### Installation
 
-* Database creation
+1. **Clone the repository:**
 
-* Database initialization
+    ```bash
+    git clone https://github.com/yourusername/currency_converter.git
+    cd currency_converter
+    ```
 
-* How to run the test suite
+2. **Install Ruby Gems:**
 
-* Services (job queues, cache servers, search engines, etc.)
+    ```bash
+    bundle install
+    ```
 
-* Deployment instructions
+3. **Install JavaScript dependencies:**
 
-* ...
-# currency_converter
-# currency_converter
+    ```bash
+    yarn install
+    ```
+
+4. **Setup the Database:**
+
+    ```bash
+    rails db:create
+    rails db:migrate
+    ```
+
+
+5. **Start the Server:**
+
+    Open a new terminal window and run:
+
+    ```bash
+    ./bin/dev
+    ```
+
+   This command will start both the Rails server and the React development server.
